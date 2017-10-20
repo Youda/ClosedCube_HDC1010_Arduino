@@ -55,7 +55,7 @@ void printRegister(HDC1010_Registers reg) {
 	Serial.println("------------------------------");
 	
 	Serial.print("Software reset bit: ");
-	Serial.print(reg.SoftwareReeset, BIN);
+	Serial.print(reg.SoftwareReset, BIN);
 	Serial.println(" (0=Normal Operation, 1=Software Reset)");
 
 	Serial.print("Heater: ");
